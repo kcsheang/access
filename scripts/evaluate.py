@@ -4,6 +4,13 @@
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
 #
+# -- fix path --
+from pathlib import Path
+import sys
+
+REPO_DIR = Path(__file__).resolve().parent.parent
+sys.path.append(str(REPO_DIR))
+# -- end fix path --
 
 from access.evaluation.general import evaluate_simplifier_on_turkcorpus
 from access.preprocessors import get_preprocessors
