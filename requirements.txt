@@ -13,4 +13,4 @@ tabulate==0.8.4
 torch==1.2.0
 tqdm==4.36.1
 easse@git+git://github.com/feralvam/easse.git@5dce4474a72baa5a16e3764f1ed4225a1751dbf2
-fairseq@git+https://github.com/louismartin/fairseq.git@controllable-sentence-simplification
+fairseq@git+https://github.com/kcsheang/fairseq.git@controllable-sentence-simplification
